@@ -9,6 +9,6 @@ A `release.json` file lives on the [release page](https://github.com/Everlasting
 A one-liner to get this deprecation info:
 
 ```console
-$ curl -sSL -H "content-type: application/json" https://github.com/EverlastingBugstopper/release-api/releases/download/v1.0.0/release.json | jq .deprecated
+$ curl -sSL https://github.com/EverlastingBugstopper/release-api/releases/download/v1.0.0/release.json | jq .deprecated
 false
 ```
