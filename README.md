@@ -12,3 +12,5 @@ A one-liner to get this deprecation info:
 $ curl -sSL https://github.com/EverlastingBugstopper/release-api/releases/download/v1.0.0/release.json | jq .deprecated
 false
 ```
+
+You could extend this to include other fields or metadata information.
